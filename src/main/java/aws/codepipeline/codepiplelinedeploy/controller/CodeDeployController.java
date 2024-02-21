@@ -11,7 +11,7 @@ public class CodeDeployController {
 
     @GetMapping("/home")
     public String index() {
-        return "Home page!!!- PRODUCTION";
+        return "Home page!!!- PRODUCTION(stable)";
     }
 
 }
