@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("aws")
 public class CodeDeployController {
 
-    @GetMapping("/")
+    @GetMapping("/home")
     public String index() {
         return "Home page!";
     }
