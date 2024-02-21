@@ -11,7 +11,7 @@ public class CodeDeployController {
 
     @GetMapping("/home")
     public String index() {
-        return "Home page!!!(version - LATEST)";
+        return "Home page!!!(version - LATEST(stable))";
     }
 
 }
